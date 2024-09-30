@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to the left and right */
+    padding: 20px;
+    background-color: #282c34; /* Header background color */
+    color: white;
+}
+
+.logo {
+    height: 50px; /* Adjust height as needed */
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0; /* Remove default margin */
+}
+
+.nav {
+    display: flex;
+    gap: 15px; /* Space between nav items */
+}
+
+.nav-button {
+    padding: 10px 15px;
+    background-color: #61dafb; /* Button color */
+    border: none;
+    border-radius: 5px;
+    color: #282c34; /* Text color */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-button:hover {
+    background-color: #21a1f1; /* Darker shade on hover */
+}
